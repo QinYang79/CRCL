@@ -1,22 +1,7 @@
 PyTorch implementation for [Cross-modal Active Complementary Learning with Self-refining Correspondence](https://openreview.net/pdf?id=UBBeUjTja8) (NeurIPS 2023).
 
 ## Introduction
-
-## Requirements
-
-- Python 3.8
-- PyTorch (>=1.10.0)
-- numpy
-- scikit-learn
-- TensorBoard
-- Punkt Sentence Tokenizer:
-  
-```
-import nltk
-nltk.download()
-> d punkt
-```
-  
+ 
 ## Datasets
 
 Our directory structure of ```data```.
