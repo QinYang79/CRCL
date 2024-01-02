@@ -36,6 +36,17 @@ Following [NCR](https://github.com/XLearning-SCU/2021-NeurIPS-NCR), we use a sub
 
 [Download Dataset](https://ncr-paper.cdn.bcebos.com/data/NCR-data.tar)
 
+## Training and Evaluation
+
+### Training new models
+```
+sh train_f30k.sh
+```
+
+### Evaluation
+```
+python eval.py
+```
 ## Citation
 If CRCL is useful for your research, please cite the following paper:
 ```
