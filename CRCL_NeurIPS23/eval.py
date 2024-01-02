@@ -13,7 +13,7 @@ if __name__ == '__main__':
     model_paths = ['/home/qinyang/ProjectsOfITM/RECO_bak/runs/NCR_logs/cc152k_SAF_0.0_0.1_weight_1/checkpoint_dir/model_best.pth.tar',
          '/home/qinyang/ProjectsOfITM/RECO_bak/runs/NCR_logs/cc152k_SGR_0.0_0.1_weight_1/checkpoint_dir/model_best.pth.tar']
     
-    model_paths = ['/home/qinyang/ProjectsOfITM/CRCL/runs/NCR_logs/f30k_VSEinfty_0.8/checkpoint_dir/model_best.pth.tar']
+    # model_paths = ['/home/qinyang/ProjectsOfITM/CRCL/runs/NCR_logs/f30k_VSEinfty_0.8/checkpoint_dir/model_best.pth.tar']
     data_path = '/home/qinyang/projects/data/cross_modal_data/data/data'
     vocab_path = '/home/qinyang/projects/data/cross_modal_data/data/vocab'
     data_path =None
