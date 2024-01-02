@@ -63,7 +63,7 @@ def parse_opt():
     parser.add_argument('--sgr_step', default=3, type=int,
                         help='Step of the SGR.')
 
-    # ------------------------- model settings (SCAN) -----------------------#
+    # ------------------------- model settings (SCAN) not used-----------------------#
     parser.add_argument('--raw_feature_norm', default="clipped_l2norm",
                         help='clipped_l2norm|l2norm|clipped_l1norm|l1norm|no_norm|softmax')
     parser.add_argument('--agg_func', default="Mean",
@@ -77,7 +77,7 @@ def parse_opt():
     parser.add_argument('--lambda_softmax', default=4., type=float,
                         help='Attention softmax temperature.')
 
-    # ------------------------- our MRL settings -----------------------#
+    # ------------------------- our CRCL settings -----------------------#
     parser.add_argument('--module_name', default='SGR', type=str,
                     help='SGR, SAF, VSEinfty')
     parser.add_argument('--resume', default='',
