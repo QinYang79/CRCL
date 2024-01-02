@@ -73,8 +73,6 @@ vocab_path='/home_bak/hupeng/data/vocab'
 CUDA_VISIBLE_DEVICES=$gpus python train.py --val_step 1000 --gpu $gpus --alpha $alpha   --data_name ${filename}_precomp \
     --tau $tau --data_path $data_path --vocab_path $vocab_path   --warm_epoch $warm_epoch\
     --schedules $schedules --lr_update $lr_update --noise_file $noise_file --module_name $module_name --folder_name $folder_name --noise_ratio $noise_rate  
- 
-
 ```
 
 ### Evaluation
