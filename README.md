@@ -40,7 +40,7 @@ Following [NCR](https://github.com/XLearning-SCU/2021-NeurIPS-NCR), we use a sub
 
 ### Training new models
 ```
-sh train_f30k.sh
+sh train.sh
 ```
 
 ### Evaluation
