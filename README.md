@@ -85,15 +85,14 @@ python eval.py
 ## Citation
 If CRCL is useful for your research, please cite the following paper:
 ```
-@inproceedings{
-  qin2023crossmodal,
+
+@article{qin2024cross,
   title={Cross-modal Active Complementary Learning with Self-refining Correspondence},
-  author={Yang Qin and Yuan Sun and Dezhong Peng and Joey Tianyi Zhou and Xi Peng and Peng Hu},
-  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
-  year={2023},
-  url={https://openreview.net/forum?id=UBBeUjTja8}
+  author={Qin, Yang and Sun, Yuan and Peng, Dezhong and Zhou, Joey Tianyi and Peng, Xi and Hu, Peng},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2024}
 }
-```
 
 ## License
 
