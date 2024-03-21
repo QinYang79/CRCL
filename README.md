@@ -1,4 +1,4 @@
-PyTorch implementation for [Cross-modal Active Complementary Learning with Self-refining Correspondence](https://openreview.net/pdf?id=UBBeUjTja8) (NeurIPS 2023).
+PyTorch implementation for [Cross-modal Active Complementary Learning with Self-refining Correspondence](https://openreview.net/pdf?id=UBBeUjTja8) (NeurIPS 2023). The solution to [the noisy correspondence problem](https://github.com/QinYang79/Noisy-Correspondence-Summary) in image-text matching.
 
 
 [Supplementary material](https://openreview.net/attachment?id=UBBeUjTja8&name=supplementary_material)
